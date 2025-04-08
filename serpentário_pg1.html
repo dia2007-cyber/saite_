@@ -2,452 +2,255 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="titulo" content="Conheça as características, origens e comportamentos das serpentes do nosso serpentário" />
-    <meta name="description" content="Visite o Serpentário e conheça as serpentes mais fascinantes do Brasil.">
-    <title>Serpentário - Conheça Nossas Cobras</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css_saite_serpentário.css"/>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serpentário-ninho da serpente</title>
+    <link rel="stylesheet" href="css_saite_serpentário.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo (1).jpg">
 </head>
 <body>
     <header>
-        <h1>Serpentário</h1>
+        <img src="img/erasebg-transformed.png"alt="Logo Serpentário" height="55" width="150" >
         <nav>
-            <ul>
-                <li><a href="#intro">Introdução</a></li>
-                <li><a href="#cobras">Cobras Peçonhentas</a></li>
-                <li><a href="#aracnideos">Aracnídeos</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+            <a href="#inicio">Início</a>
+            <a href="#contato">Contato</a>
         </nav>
-    </header>
 
+    </header>
+    
+
+      <main>
+        <div class="top-info">
+            <div class="address">
+                📍 Av. das Serpentes, 1234 - Jardim Reptiliano - São Paulo/SP<br>
+                🕒 Aberto de terça a domingo, das 9h às 17h
+            </div>
+            <a href="#agendamento" class="agendamento-btn">Agendar Visita</a>
+        </div>
+    
+    
+      
+        <section id="agendamento" class="especie">
+            <h2>Agende Sua Visita</h2>
+            <form>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="data">Data Pretendida:</label>
+                <input type="date" id="data" name="data" required>
+    
+                <label for="pessoas">Número de Visitantes:</label>
+                <select id="pessoas" name="pessoas">
+                    <option value="1">1 pessoa</option>
+                    <option value="2">2 pessoas</option>
+                    <option value="3">3 pessoas</option>
+                    <option value="4">4 pessoas</option>
+                    <option value="5">5 pessoas</option>
+                </select>
+    
+                <button type="submit">Solicitar Agendamento</button>
+            </form>
+        </section>
+    </main>
+        
+    
     <main>
-        <section id="intro">
-            <h2>Introdução</h2>
-            <p>Explore as características, origens e comportamentos das serpentes mais fascinantes do mundo.</p>
+        <section id="inicio">
+            <h1>Bem-vindo ao nosso Serpentário </h1>
+            <p>Conheça as principais espécies de serpentes disponiveis para visitação</p>
         </section>
-           <article>
-            <h2>Cobras Peçonhentas</h2>
-            <section id="cobras">
-                <h2>Cobras Peçonhentas</h2>
+
+        <section id="especies">
             
-            <article>
-                    <h3>Cascavel</h3>
-                    <img src="cascavel.jpg" alt="Cascavel">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Característica</th>
-                                <th>Informação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nome Vulgar</td>
-                                <td>Cascavel, boicininga, maracambóia</td>
-                            </tr>
-                            <tr>
-                                <td>Nome Científico</td>
-                                <td>Crotalus durissus</td>
-                            </tr>
-                            <tr>
-                                <td>Tamanho</td>
-                                <td>Em média 1,6 m</td>
-                            </tr>
-                            <tr>
-                                <td>Dentição</td>
-                                <td>Solenóglifa</td>
-                            </tr>
-                            <tr>
-                                <td>Alimentação</td>
-                                <td>Pequenos mamíferos roedores, pequenos marsupiais</td>
-                            </tr>
-                            <tr>
-                                <td>Reprodução</td>
-                                <td>Vivípara</td>
-                            </tr>
-                            <tr>
-                                <td>Hábito</td>
-                                <td>Noturno</td>
-                            </tr>
-                            <tr>
-                                <td>Habitat</td>
-                                <td>Terrícola</td>
-                            </tr>
-                            <tr>
-                                <td>Distribuição Geográfica</td>
-                                <td>Ocorre em áreas abertas em todas as regiões do Brasil, exceto o Acre.</td>
-                            </tr>
-                            <tr>
-                                <td>Sintomas de Envenenamento</td>
-                                <td>Flacidez da musculatura facial, visão dupla, náuseas, entre outros.</td>
-                            </tr>
-                            <tr>
-                                <td>Ação do Veneno</td>
-                                <td>Neurotóxico, miotóxico e coagulante.</td>
-                            </tr>
-                            <tr>
-                                <td>Tipo de Soro</td>
-                                <td>Anticrotálico (SAC) ou Antibotrópico-crotálico (SABC).</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </article>
-            
-                <article>
-                    <h3>Urutu</h3>
-                    <img src="urutu.jpg" alt="Urutu">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Característica</th>
-                                <th>Informação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nome Vulgar</td>
-                                <td>Urutu, jararaca-rabo-de-porco</td>
-                            </tr>
-                            <tr>
-                                <td>Nome Científico</td>
-                                <td>Bothrops alternatus</td>
-                            </tr>
-                            <tr>
-                                <td>Tamanho</td>
-                                <td>Entre 80 a 1,20 m</td>
-                            </tr>
-                            <tr>
-                                <td>Dentição</td>
-                                <td>Solenóglifa</td>
-                            </tr>
-                            <tr>
-                                <td>Alimentação</td>
-                                <td>Preferencialmente de roedores</td>
-                            </tr>
-                            <tr>
-                                <td>Reprodução</td>
-                                <td>Vivípara</td>
-                            </tr>
-                            <tr>
-                                <td>Hábito</td>
-                                <td>Noturna</td>
-                            </tr>
-                            <tr>
-                                <td>Habitat</td>
-                                <td>Terrícola</td>
-                            </tr>
-                            <tr>
-                                <td>Distribuição Geográfica</td>
-                                <td>Norte da Argentina, Uruguai, Paraguai e no Brasil.</td>
-                            </tr>
-                            <tr>
-                                <td>Sintomas de Envenenamento</td>
-                                <td>Dor no local da picada, podendo ocorrer bolhas e sangramento.</td>
-                            </tr>
-                            <tr>
-                                <td>Ação do Veneno</td>
-                                <td>Proteolítica, coagulante e hemorrágica.</td>
-                            </tr>
-                            <tr>
-                                <td>Tipo de Soro</td>
-                                <td>Antibotrópico (SAB).</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </article>
-                <article>
-                    <h3>Caiçaca</h3>
-                    <img src="caicaca.jpg" alt="Caiçaca">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Característica</th>
-                                <th>Informação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nome Vulgar</td>
-                                <td>Caiçaca</td>
-                            </tr>
-                            <tr>
-                                <td>Nome Científico</td>
-                                <td>Bothrops moojeni</td>
-                            </tr>
-                            <tr>
-                                <td>Tamanho</td>
-                                <td>Em média 1,5 m</td>
-                            </tr>
-                            <tr>
-                                <td>Dentição</td>
-                                <td>Solenóglifa</td>
-                            </tr>
-                            <tr>
-                                <td>Alimentação</td>
-                                <td>Roedores, anfíbios e lagartos</td>
-                            </tr>
-                            <tr>
-                                <td>Reprodução</td>
-                                <td>Vivípara</td>
-                            </tr>
-                            <tr>
-                                <td>Hábito</td>
-                                <td>Noturna</td>
-                            </tr>
-                            <tr>
-                                <td>Habitat</td>
-                                <td>Terrícola</td>
-                            </tr>
-                            <tr>
-                                <td>Distribuição Geográfica</td>
-                                <td>Centro-oeste, sudeste, nordeste e sul do Brasil.</td>
-                            </tr>
-                            <tr>
-                                <td>Sintomas de Envenenamento</td>
-                                <td>Dor no local da picada, sangramento e inchaço.</td>
-                            </tr>
-                            <tr>
-                                <td>Ação do Veneno</td>
-                                <td>Proteolítica, coagulante e hemorrágica.</td>
-                            </tr>
-                            <tr>
-                                <td>Tipo de Soro</td>
-                                <td>Antibotrópico (SAB).</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </article>
-            
-                <article>
-                    <h3>Jararacuçu</h3>
-                    <img src="jararacucu.jpg" alt="Jararacuçu">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Característica</th>
-                                <th>Informação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nome Vulgar</td>
-                                <td>Jararacuçu</td>
-                            </tr>
-                            <tr>
-                                <td>Nome Científico</td>
-                                <td>Bothrops jararacussu</td>
-                            </tr>
-                            <tr>
-                                <td>Tamanho</td>
-                                <td>Em média 1,5 m, podendo atingir até 2,20 m</td>
-                            </tr>
-                            <tr>
-                                <td>Dentição</td>
-                                <td>Solenóglifa</td>
-                            </tr>
-                            <tr>
-                                <td>Alimentação</td>
-                                <td>Pequenos mamíferos e anfíbios</td>
-                            </tr>
-                            <tr>
-                                <td>Reprodução</td>
-                                <td>Vivípara</td>
-                            </tr>
-                            <tr>
-                                <td>Hábito</td>
-                                <td>Noturno e diurno</td>
-                            </tr>
-                            <tr>
-                                <td>Habitat</td>
-                                <td>Terrícola</td>
-                            </tr>
-                            <tr>
-                                <td>Distribuição Geográfica</td>
-                                <td>Do sul da Bahia até o Rio Grande do Sul.</td>
-                            </tr>
-                            <tr>
-                                <td>Sintomas de Envenenamento</td>
-                                <td>Dor no local da picada, bolhas e sangramento.</td>
-                            </tr>
-                            <tr>
-                                <td>Ação do Veneno</td>
-                                <td>Proteolítica, coagulante e hemorrágica.</td>
-                            </tr>
-                            <tr>
-                                <td>Tipo de Soro</td>
-                                <td>Antibotrópico (SAB).</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </article>
-                <article>
-                    <h3>Jararaca</h3>
-                    <img src="jararaca.jpg" alt="Jararaca">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Característica</th>
-                                <th>Informação</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Nome Vulgar</td>
-                                <td>Jararaca</td>
-                            </tr>
-                            <tr>
-                                <td>Nome Científico</td>
-                                <td>Bothrops jararaca</td>
-                            </tr>
-                            <tr>
-                                <td>Tamanho</td>
-                                <td>Em média 1,20 m, podendo chegar até 1,60 m</td>
-                            </tr>
-                            <tr>
-                                <td>Dentição</td>
-                                <td>Solenóglifa</td>
-                            </tr>
-                            <tr>
-                                <td>Alimentação</td>
-                                <td>Roedores e anfíbios</td>
-                            </tr>
-                            <tr>
-                                <td>Reprodução</td>
-                                <td>Vivípara</td>
-                            </tr>
-                            <tr>
-                                <td>Hábito</td>
-                                <td>Crepuscular e noturna</td>
-                            </tr>
-                            <tr>
-                                <td>Habitat</td>
-                                <td>Terrícola e arborícola</td>
-                            </tr>
-                            <tr>
-                                <td>Distribuição Geográfica</td>
-                                <td>Do sul da Bahia até o Rio Grande do Sul.</td>
-                            </tr>
-                            <tr>
-                                <td>Sintomas de Envenenamento</td>
-                                <td>Dor no local da picada, bolhas e sangramento.</td>
-                            </tr>
-                            <tr>
-                                <td>Ação do Veneno</td>
-                                <td>Proteolítica, coagulante e hemorrágica.</td>
-                            </tr>
-                            <tr>
-                                <td>Tipo de Soro</td>
-                                <td>Antibotrópico (SAB).</td>
-                            </tr>
-                        </tbody>
-        </article> 
-            </section>
-        <section>
-            <h3>Cascavel</h3>
-                <img src="cascavel.jpg" alt="Cascavel, conhecida por seu chocalho">
-                <p><strong>Nome vulgar:</strong> Cascavel, boicininga, maracambóia</p>
-                <p><strong>Nome científico:</strong> Crotalus durissus</p>
-                <p><strong>Tamanho:</strong> Em média 1,6m</p>
-                <p><strong>Dentição:</strong> Solenóglifa</p>
-                <p><strong>Alimentação:</strong> Pequenos mamíferos roedores, pequenos marsupiais</p>
-                <p><strong>Reprodução:</strong> Vivípara</p>
-                <p><strong>Hábito:</strong> Noturno</p>
-                <p><strong>Habitat:</strong> Terrícola</p>
-                <p><strong>Distribuição geográfica:</strong> Ocorre em áreas abertas em todas as regiões do Brasil, exceto o Acre.</p>
-                <p><strong>Sintomas de envenenamento:</strong> Sem lesão evidente no local da picada, flacidez da musculatura facial, visão dupla e turva, entre outros.</p>
-                <p><strong>Ação do veneno:</strong> neurotóxico, miotóxico e coagulante.</p>
-                <p><strong>Tipo de soro:</strong> Anticrotálico (SAC) ou Antibotrópico-crotálico (SABC).</p>
-        </section>
-        <section id="blog">
-            <h2>Blog</h2>
-            <article>
-                <h3>Novidades do Serpentário</h3>
-                <p>Fique por dentro das últimas notícias e eventos do nosso serpentário! Dicas de cuidados e curiosidades sobre nossas cobras.</p>
-                <a href="#">Leia mais...</a>
+            <article class="especie">
+                <h2>Cascavel (Crotalus durissus)</h2>
+                <img src="img/cascavel00.jpg" alt="Cascavel">
+                <table>
+                    <tr>
+                        <th>Característica</th>
+                        <th> Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>Nome Vulgar</td>
+                        <td>Cascavel, boicininga, maracambóia</td>
+                    </tr>
+                    <tr>
+                        <td>Tamanho</td>
+                        <td>1,5 metros (média)</td>
+                    </tr>
+                    <tr>
+                        <td>Habitat</td>
+                        <td>Campos abertos, Cerrado, Caatinga, plantações, pastagens</td>
+                    </tr>
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>Pequenos mamíferos roedores</td>
+                    </tr>
+                    <tr>
+                        <td>Sintomas de Envenenamento</td>
+                        <td>Flacidez muscular, visão dupla, náuseas</td>
+                    </tr>
+                    <tr>
+                        <td>peçonha</td>
+                        <td>Sim,é uma cobra peçonhenta</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article class="especie">
+                <h2>Urutu (Bothrops alternatus)</h2>
+                <img src="img/urutu.jpg" alt="Urutu">
+                <table>
+                    <tr>
+                        <th>Característica</th>
+                        <th> Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>Nome Vulgar</td>
+                        <td>Urutu, jararaca-rabo-de-porco</td>
+                    </tr>
+                    <tr>
+                        <td>Tamanho</td>
+                        <td>80 cm a 1,20 m</td>
+                    </tr>
+                    <tr>
+                        <td>Habitat</td>
+                        <td>Áreas úmidas e florestais</td>
+                    </tr>
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>Roedores</td>
+                    </tr>
+                    <tr>
+                        <td>Sintomas de Envenenamento</td>
+                        <td>Dor local, bolhas, sangramento</td>
+                    </tr>
+                    <tr>
+                        <td>peçonha</td>
+                        <td>Sim,é uma cobra peçonhenta</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article class="especie">
+                <h2>Caiçaca (Bothrops moojeni)</h2>
+                <img src="img/caiçaca.jpg" alt="Caiçaca">
+                <table>
+                    <tr>
+                        <th>Característica</th>
+                        <th> Descrição</th> 
+                    </tr>
+                    <tr>
+                        <td>Tamanho</td>
+                        <td>1,5 metros (média)</td>
+                    </tr>
+                    <tr>
+                        <td>Habitat</td>
+                        <td>Cerrado e áreas secas</td>
+                    </tr>
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>Roedores, anfíbios e lagartos</td>
+                    </tr>
+                    <tr>
+                        <td>Sintomas de Envenenamento</td>
+                        <td>Dor intensa, inchaço</td>
+                    </tr>
+                    <tr>
+                        <td>peçonha</td>
+                        <td>Sim,é uma cobra peçonhenta</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article class="especie">
+                <h2>Jararacuçu (Bothrops jararacussu)</h2>
+                <img src="img/jararacuçu.jpg" alt="Jararacuçu">
+                <table>
+                    <tr>
+                        <th>Característica</th>
+                        <th> Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>Tamanho</td>
+                        <td>Até 2,20 metros</td>
+                    </tr>
+                    <tr>
+                        <td>Habitat</td>
+                        <td>Florestas úmidas</td>
+                    </tr>
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>Pequenos mamíferos</td>
+                    </tr>
+                    <tr>
+                        <td>Sintomas de Envenenamento</td>
+                        <td>Bolhas, necrose local</td>
+                    </tr>
+                    <tr>
+                        <td>peçonha</td>
+                        <td>Sim,é uma cobra peçonhenta</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article class="especie">
+                <h2>Jararaca (Bothrops jararaca)</h2>
+                <img src="img/jararaca.jpg" alt="Jararaca">
+                <table>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>Tamanho</td>
+                        <td>Até 1,60 metros</td>
+                    </tr>
+                    <tr>
+                        <td>Habitat</td>
+                        <td>Áreas arbustivas</td>
+                    </tr>
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>Roedores e anfíbios</td>
+                    </tr>
+                    <tr>
+                        <td>Sintomas de Envenenamento</td>
+                        <td>Dor local, sangramento</td>
+                    </tr>
+                    <tr>
+                        <td>peçonha</td>
+                        <td>Sim,é uma cobra peçonhenta</td>
+                    </tr>
+                </table>
             </article>
         </section>
 
-        <section id="depoimentos">
-            <h2>Depoimentos</h2>
-            <blockquote>
-                <p>"Uma experiência incrível! As cobras são fascinantes!" - João Silva</p>
-            </blockquote>
-            <blockquote>
-                <p>"Adorei a visita e aprendi muito sobre serpentes!" - Maria Oliveira</p>
-            </blockquote>
-        </section>
+        
 
-        <section id="formulario-contato">
-            <h2>Entre em Contato</h2>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Para mais informações, entre em contato pelo e-mail: <a href="mailto:contato@serpentario.com">contato@serpentario.com</a></p>
-        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Serpentário. Todos os direitos reservados.</p>
-        <div>
-            <a href="https://facebook.com" target="_blank">Facebook</a> |
-            <a href="https://instagram.com" target="_blank">Instagram</a> |
-            <a href="https://twitter.com" target="_blank">Twitter</a>
-        </div>
-    </footer>
-    <p><a href="serpentário_pg2.html">Página 2</a></p>
-    <address>
-        Contato do autor: <a href="mailto:dianinhasantana07@gmail.com">Diana Santana</a>
-    </address>
+        <p>&copy; 2024 Serpentário Nacional - Todos os direitos reservados</p>
+        <section id="contato">
+        <p>Contato: contato@serpentario.org</p>
+    </section>
 
-    <div class="vw enabled" style="left: initial; right: 0px; top: 50%; bottom: initial; transform: translateY(calc(-50% - 10px));">
-        <div class="vw-access-button active">
-            <img class="access-button" data-src="assets/access_icon.svg" 
-                 alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." 
-                 src="https://vlibras.gov.br/app//assets/access_icon.svg">
-            <img class="pop-up" data-src="assets/access_popup.jpg" 
-                 alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." 
-                 src="https://vlibras.gov.br/app//assets/access_popup.jpg">
-        </div>
-        <br>
-        <div class="vw-plugin-wrapper">
-            <div class="vp">
-                <div class="vp-box"></div>
-                <div class="vp-message-box"></div>
-                <div class="vp-settings"></div>
-                <div class="vp-dictionary"></div>
-                <div class="vp-settings-btn"></div>
-                <div class="vp-info-screen"></div>
-                <div class="vp-suggestion-screen"></div>
-                <div class="vp-translator-screen"></div>
-                <div class="vp-main-guide-screen"></div>
-                <div class="vp-suggestion-button"></div>
-                <div class="vp-rate-box"></div>
-                <div class="vp-change-avatar"></div>
-                <div class="vp-additional-options"></div>
-                <div class="vp-controls"></div>
-                <span class="vp-click-blocker"></span>
-            </div>
+        <p><a href="serpentário_pg2.html">Página 2</a></p>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
     </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
-</html>]
-
-
+</html>
+ 
